@@ -13,7 +13,9 @@ public class Main {
         System.out.println(p.bemutatkozas());
 
         // Calling the method, exactly as in the exercise description
+        System.out.print("Longest csillam streak with default daily points: ");
         System.out.println(leghosszabbCsillamSorozat(napiPontok, 8));
+        System.out.print("Longest csillam streak with 0 daily points: ");
         System.out.println(leghosszabbCsillamSorozat(new int[0], 8));
     }
 
