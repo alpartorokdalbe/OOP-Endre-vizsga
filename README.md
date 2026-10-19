@@ -1,18 +1,5 @@
-## Getting Started
+This is a marvelous little exam project, in which the user can play with magical ponies, even flying ones too.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Should the user want to add more ponies, they may find the original pony factory at https://github.com/alpartorokdalbe/OOP-Endre-vizsga.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The app couldn't be any easier to start. You just open the project in your preferred IDE and press the big play button. All the ponies will introduce themselves to you.
