@@ -3,11 +3,23 @@ class CsillamPoni {
     private int csillamPont;
     
     public CsillamPoni(String nev, int csillamPont) {
+        if(nev == null || nev.isEmpty()) {
+            throw new IllegalArgumentException("Nev nem lehet ures");
+        }
+
+        if(csillamPont < 0) {
+            throw new IllegalArgumentException("Csillam pont nem lehet negativ");
+        }
+
         this.nev = nev;
         this.csillamPont = csillamPont;
     }
     
     public void adjCsillamot(int mennyiseg) {
+        if(mennyiseg < 0) {
+            throw new IllegalArgumentException("Csillam pont nem lehet negativ");
+        }
+
         csillamPont += mennyiseg;
     }
 
