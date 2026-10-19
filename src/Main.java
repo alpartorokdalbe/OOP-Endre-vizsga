@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        CsillamPoni p = new RepuloCsillamPoni("CsillamKapitan", 7, "lila");
+        // Created parent and child pony objects
+        CsillamPoni p = new RepuloCsillamPoni("CsillamKapitany", 7, "lila");
+        CsillamPoni p2 = new CsillamPoni("RagyogoSzivarvany", 7);
 
-        CsillamPoni p2 = new CsillamPoni("CsillamKapitan", 7);
-
+        // Intro for both ponies
         p.adjCsillamot(3);
         System.out.println(p2.bemutatkozas());
+        System.out.println(p.bemutatkozas());
     }
 }

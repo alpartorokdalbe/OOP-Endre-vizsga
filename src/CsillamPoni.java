@@ -25,7 +25,7 @@ class CsillamPoni {
 
     // Added getNev() getter
     public String getNev() {
-        if(nev == null || nev.isEmpty()) {
+        if(this.nev == null || this.nev.isEmpty()) {
             return "Nincs nev";
         }
         return nev;
