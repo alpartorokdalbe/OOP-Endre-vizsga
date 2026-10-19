@@ -4,6 +4,8 @@ class RepuloCsillamPoni extends CsillamPoni {
     public RepuloCsillamPoni(String nev, int csillamPont, String szarnySzin) {
         super(nev, csillamPont);
         this.szarnySzin = szarnySzin;
+
+        
     }
 
     @Override

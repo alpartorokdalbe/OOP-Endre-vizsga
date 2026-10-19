@@ -1,5 +1,5 @@
 class CsillamPoni {
-    public String nev;
+    private String nev;
     private int csillamPont;
     
     public CsillamPoni(String nev, int csillamPont) {
@@ -9,6 +9,14 @@ class CsillamPoni {
     
     public void adjCsillamot(int mennyiseg) {
         csillamPont += mennyiseg;
+    }
+
+    // Added getNev() getter
+    public String getNev() {
+        if(nev == null || nev.isEmpty()) {
+            return "Nincs nev";
+        }
+        return nev;
     }
 
     public int getCsillamPont() {
