@@ -11,6 +11,4 @@ class RepuloCsillamPoni extends CsillamPoni {
         String nev = this.getNev();
         return "Repulo poni: " + nev + ", szarny szin: " + szarnySzin + ", csillam pont: " + getCsillamPont();
     }
-
-    
 }
